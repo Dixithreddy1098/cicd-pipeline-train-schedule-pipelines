@@ -1,0 +1,10 @@
+FROM node:carbon
+
+RUN mkdir /app
+
+COPY *.zip /app/app.zip
+
+RUN npm install
+
+
+CMD [ "npm", "start" ]

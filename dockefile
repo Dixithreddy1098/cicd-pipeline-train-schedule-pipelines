@@ -1,0 +1,5 @@
+FROM node:carbon
+
+RUN mkdir /home/cicd/cicd-pipeline-train-schedule-pipelines/app
+
+COPY 
